@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <main>
+
+    <header class="main-header">
+      <button id="check-button">Check</button>
+      <button id="reset-button">Reset</button>
+      <h1 class="content-header">
+        <span class="counter">ZERO </span>
+        <span class="message">KangaCoin Match Game</span>
+      </h1>
+
+    </header>
+
+    <section class="board">
+
+      <div class="layer drop-layer">
+        <div class="tile drop-tile" data-value="5">$5</div>
+        <div class="tile drop-tile" data-value="10">$10</div>
+        <div class="tile drop-tile" data-value="20">$20</div>
+        <div class="tile drop-tile" data-value="50">$50</div>
+        <div class="tile drop-tile" data-value="100">$100</div>
+      </div>
+
+      <div class="layer drop-layer">
+        <img class="tile drag-tile" style="left:197px;" src="5bill.jpg" data-value="5" />
+        <img class="tile drag-tile" style="left:197px;" src="10bill.jpg" data-value="10" />
+        <img class="tile drag-tile" style="left:197px;" src="20bill.jpg" data-value="20" />
+        <img class="tile drag-tile" style="left:197px;" src="50bill.jpg" data-value="50" />
+        <img class="tile drag-tile" style="left:197px;" src="100bill.jpg" data-value="100" />
+        <!-- <div class="tile drag-tile" data-value="alpha">$5</div>
+        <div class="tile drag-tile" data-value="bravo">$10</div>
+        <div class="tile drag-tile" data-value="charlie">$20</div>
+        <div class="tile drag-tile" data-value="delta">$50</div> -->
+
+        <span id="spinner">
+          <a href="#">
+            <img id="knob1" src="https://greensock.com/wp-content/uploads/custom/draggable/img/knob.png" width="150" height="150">
+          </a>
+        </span>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/utils/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
