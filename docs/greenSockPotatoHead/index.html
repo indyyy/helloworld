@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Asap:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Signika+Negative:300,400,700' rel='stylesheet' type='text/css'>
+  <div id="container">
+    <span id="spinner">
+      <a href="../index.html">
+        <img id="knob1" src="https://greensock.com/wp-content/uploads/custom/draggable/img/knob.png" width="150" height="150">
+      </a>
+    </span>
+    <img class="box" id="box1" src="20bill.jpg">
+    <!-- <div class="box" id="box1">Drag  me</div> -->
+    <!-- <div class="box" id="box2" style="left:392px; background-color:red;">Drag me too</div> -->
+    <img class="box" id="box2" style="left:392px" src="100bill.jpg">
+
+    <img class="box" style="left:197px;" src="https://starfisheducation.com.au/wp-content/uploads/2018/01/Screen-Shot-2018-01-07-at-1.27.28-pm.png"
+    />
+  </div>
+  <div class="controls">
+    <ul>
+      <li class="controlsTitle">Options</li>
+      <li>
+        <label><input type="checkbox" name="snap" id="snap" value="1" /> Snap end position to grid</label>
+      </li>
+      <li>
+        <label><input type="checkbox" name="liveSnap" id="liveSnap" value="1" /> Live snap</label>
+      </li>
+    </ul>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/utils/Draggable.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/plugins/CSSPlugin.min.js"></script>
+
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>
