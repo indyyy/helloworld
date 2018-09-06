@@ -1,8 +1,8 @@
 console.clear();
 
 var a = 0;
-var b = 0;
-var c = 0;
+var b = 15;
+var c = 30;
 
 // TweenLite.from($("#test"), 0.5, { height: "-200px", ease: SteppedOut.easeOut });
 
