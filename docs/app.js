@@ -188,9 +188,5 @@ function selectGame() {
 
 TweenMax.min.js
 Draggable.min.js
-ThrowPropsPlugin.min.js (Club GreenSock bonus plugin for velocity-based tweens)
-
-More info on Club GreenSock and other bonus plugins
-https://www.greensock.com/club
 
 */
